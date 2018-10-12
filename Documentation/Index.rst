@@ -1,88 +1,158 @@
 .. include:: Includes.txt
 
-
 .. _start:
+
+.. _introduction:
+.. _about:
+.. _history:
+.. _credits:
+.. _feedback:
+.. _target-audience:
+
+.. _security-team:
+.. _security-team-contact:
+.. _incident-handling:
+.. _incident-handling-core:
+.. _incident-handling-extensions:
+
+.. _general-information:
+.. _typo3-versions:
+.. _typo3-lifecycle:
+.. _difference-core-extensions:
+.. _announcement-updates:
+.. _security-bulletins:
+
+.. _types-of-security-threats:
+.. _security-threats:
+.. _information-disclosure:
+.. _identity-theft:
+.. _sql-injection:
+.. _code-injection:
+.. _authorization-bypass:
+.. _xss:
+.. _xsrf:
+
+.. _general-guidelines:
+.. _secury-passwords:
+.. _update-operating-system:
+.. _update-browser:
+.. _communication:
+.. _react-quickly:
+.. _updating-typo3:
+.. _updating-extensions:
+.. _staging-servers:
+
+.. _administrators:
+.. _administrator-definition:
+.. _administrator-rules:
+.. _integrity-packages:
+.. _file-directory-permissions:
+.. _restrict-access-server-level:
+.. _directory-indexing:
+.. _database-access:
+.. _mysql:
+.. _mysql-password-username:
+.. _mysql-external-access:
+.. _mysql-administration-tools:
+.. _encrypted-client-server-connection:
+.. _data-classification:
+.. _encryption-frontend:
+.. _encryption-backend:
+.. _encryption-other-services:
+.. _other-services:
+.. _administrator-further-actions:
+.. _administrators-furtheractions-clickjacking:
+
+.. _integrators:
+.. _integrator-definition:
+.. _integrator-rules:
+.. _install-tool:
+.. _encryption-key:
+.. _global-typo3-options:
+.. _cookieHttpOnly:
+.. _cookiesecure:
+.. _displayerrors:
+.. _devipmask:
+.. _enablebeuseriplock:
+.. _filedenypattern:
+.. _lockip:
+.. _lockssl:
+.. _ipmasklist:
+.. _nophpscriptinclude:
+.. _trustedHostsPattern:
+.. _warningemailaddr:
+.. _warningmode:
+.. _security-warnings:
+.. _reports-logs:
+.. _access-privileges:
+.. _backend:
+.. _frontend:
+.. _extensions:
+.. _extension-state:
+.. _extension-binaries:
+.. _extension-remove:
+.. _extension-lowlevel:
+.. _extension-updates:
+.. _extension-security:
+.. _rsaauth:
+.. _saltedpasswords:
+.. _extension-other:
+.. _typoscript:
+.. _typoscript-sql-injection:
+.. _typoscript-xss:
+.. _typoscript-external-file:
+.. _content-elements:
+
+.. _editors:
+.. _editor-definition:
+.. _editor-rules:
+.. _backend-access:
+.. _be-username:
+.. _be-password:
+.. _administrator-privileges:
+.. _notify-at-login:
+.. _lock-to-ip:
+.. _restrict-to-required-functions:
+.. _secure-connection:
+.. _logout:
+
+.. _backups:
+.. _backup-strategy:
+.. _backup-components:
+.. _backups-time-plan:
+.. _backup-location:
+.. _backups-further-considerations:
+
+.. _detect-analyze-repair:
+.. _detect:
+.. _detect-manipulated-frontpage:
+.. _detect-malicious-html-code:
+.. _detect-embedded-elements:
+.. _detect-unusual-traffic:
+.. _detect-reports:
+.. _detect-warnings:
+.. _detect-leaked-credentials:
+.. _take-offline:
+.. _analyze:
+.. _repair-restore:
+.. _repair:
+.. _restore:
+.. _hack-further-actions:
+
 
 ====================
 TYPO3 Security Guide
 ====================
 
-:Previous Key:
-      doc_guide_security
+.. attention::
 
-:Version:
-      |release|
+   This document has been merged into :ref:`TYPO3 Explained <t3coreapi:security>`
+   since core version 9.
 
-:Language:
-      en
+.. rst-class:: horizbuttons-tip-xxl
 
-:Description:
-      Official TYPO3 Security Guide for the TYPO3 CMS.
+- :ref:`This manual has moved <t3coreapi:security>`
 
-      This document describes some typical risks and advises how to protect a
-      TYPO3 site in order to ensure it is and stays secure and stable.
-
-:Keywords:
-      security forEditors forAdmins forDevelopers forBeginners forIntermediates forAdvanced
-
-:Copyright:
-      2011-2018
-
-:Author:
-      Documentation Team
-
-:Email:
-      documentation@typo3.org
-
-:License:
-      Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
-
-:Rendered:
-      |today|
-
-The content of this document is related to TYPO3 CMS, an open source
-enterprise content management system licensed under GNU/GPL, available
-from `www.typo3.org <https://typo3.org/>`_
-
-
-**Official Documentation**
-
-This document is included as part of the official TYPO3 documentation.
-It has been approved by the TYPO3 Documentation Team following a peer-
-review process. The reader should expect the information in this
-document to be accurate - please report discrepancies to the
-Documentation Team (documentation@typo3.org). Official documents are
-kept up-to-date to the best of the Documentation Team's abilities.
-
-
-**Guide**
-
-This document is a Guide. Guides are designed to familiarize a reader
-with a specific topic in order to provide a working knowledge of that
-particular process. Readers should peruse the guide from cover to
-cover in order to gain a practical overview of the process. Once
-completed, the Guide becomes a practical reference tool that a reader
-will refer to as needed. Guides offer advice on how best to achieve a
-given task.
-
-
-**Table of Contents**
-
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
-
-   Introduction/Index
-   SecurityTeam/Index
-   GeneralInformation/Index
-   TypesOfThreats/Index
-   GeneralGuidelines/Index
-   GuidelinesAdministrators/Index
-   GuidelinesIntegrators/Index
-   GuidelinesEditors/Index
-   Backups/Index
-   HackedSite/Index
-   Targets
-
+*Older versions*
+(`v8.7 </typo3cms/SecurityGuide/8.7/>`__):
+Please refer to "Related Links" in the lower left corner of the page.

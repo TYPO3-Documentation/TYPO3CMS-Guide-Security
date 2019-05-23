@@ -1,0 +1,9 @@
+{
+    "name": "typo3/guide-security",
+    "type": "typo3-cms-documentation",
+    "description": "TYPO3 Security Guide",
+    "license": "OPL-1.0",
+    "require": {
+      "typo3/cms-core": "^8.7"
+    }
+}
